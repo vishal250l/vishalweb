@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services | web & UI developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific CSS for Services List */
+        .service-row {
+            display: flex;
+            align-items: center;
+            background: #0f0f0f;
+            border: 1px solid #222;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+        .service-row:hover { border-color: var(--accent-color); transform: translateX(10px); }
+        .service-icon { font-size: 2rem; color: var(--accent-color); margin-right: 20px; }
+        .service-info h3 { font-size: 1.5rem; margin-bottom: 5px; }
+        .service-info p { color: #888; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="index.html">vishal<span>web developer</span></a></div>
+        <div class="nav-links">
+            <a href="work.html">Work</a>
+            <a href="services.html" style="color:var(--accent-color)">Services</a>
+            <a href="about.html">About</a>
+        </div>
+        <a href="contact.html" class="btn-glow">Book a Call</a>
+    </nav>
+
+    <section class="page-container">
+        <h1 class="page-title">What We <span style="color: var(--accent-color);">Offer</span></h1>
+        
+        <div class="service-row">
+            <div class="service-icon">🎬</div>
+            <div class="service-info">
+                <h3>Short Form Content</h3>
+                <p>Reels,  and Shorts edited to maximize watch time.</p>
+            </div>
+        </div>
+
+        <div class="service-row">
+            <div class="service-icon">📺</div>
+            <div class="service-info">
+                <h3>YouTube Automation</h3>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="service-row">
+            <div class="service-icon">📢</div>
+            <div class="service-info">
+                <h3>Video Ads</h3>
+                <p>Direct response video ads for Facebook & Instagram.</p>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center; margin: 50px 0;">
+    <a href="index.html" style="text-decoration: none;">
+        <button style="
+            background: transparent; 
+            border: 1px solid #333; 
+            color: white; 
+            padding: 15px 30px; 
+            font-size: 1rem; 
+            border-radius: 50px; 
+            cursor: pointer; 
+            transition: 0.3s;">
+            ← Return to Home
+        </button>
+    </a>
+</div>
+
+</body>
+</html>
